@@ -11,4 +11,4 @@ A basic functional calculator app using Dart in Flutter Framework.
 <img src="images/running02.png">
 <img src="images/running03.png">
 
-### Leave a star if you like it. 😃
+### Leave a star ⭐ if you like it. 😃

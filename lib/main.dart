@@ -104,7 +104,7 @@ class CalculatorAppState extends State<CalculatorApp> {
                       text: 'AC',
                       fillColor: 0xFFF61F67,
                       textColor: 0xFFfefae0,
-                      textSize: 20,
+                      textSize: 24,
                       callback: allClear,
                     ),
                     CalcButton(
@@ -132,21 +132,27 @@ class CalculatorAppState extends State<CalculatorApp> {
                   children: <Widget>[
                     CalcButton(
                       text: '7',
+                      fillColor: 0xFF3D3D3D,
+                      textColor: 0xFFFFFFFF,
                       callback: numClick,
                     ),
                     CalcButton(
                       text: '8',
+                      fillColor: 0xFF3D3D3D,
+                      textColor: 0xFFFFFFFF,
                       callback: numClick,
                     ),
                     CalcButton(
                       text: '9',
+                      fillColor: 0xFF3D3D3D,
+                      textColor: 0xFFFFFFFF,
                       callback: numClick,
                     ),
                     CalcButton(
                       text: '*',
                       fillColor: 0xFF4FC3F7,
                       textColor: 0xFF03071e,
-                      textSize: 24,
+                      textSize: 30,
                       callback: numClick,
                     ),
                   ],
@@ -156,14 +162,20 @@ class CalculatorAppState extends State<CalculatorApp> {
                   children: <Widget>[
                     CalcButton(
                       text: '4',
+                      fillColor: 0xFF3D3D3D,
+                      textColor: 0xFFFFFFFF,
                       callback: numClick,
                     ),
                     CalcButton(
                       text: '5',
+                      fillColor: 0xFF3D3D3D,
+                      textColor: 0xFFFFFFFF,
                       callback: numClick,
                     ),
                     CalcButton(
                       text: '6',
+                      fillColor: 0xFF3D3D3D,
+                      textColor: 0xFFFFFFFF,
                       callback: numClick,
                     ),
                     CalcButton(
@@ -180,14 +192,20 @@ class CalculatorAppState extends State<CalculatorApp> {
                   children: <Widget>[
                     CalcButton(
                       text: '1',
+                      fillColor: 0xFF3D3D3D,
+                      textColor: 0xFFFFFFFF,
                       callback: numClick,
                     ),
                     CalcButton(
                       text: '2',
+                      fillColor: 0xFF3D3D3D,
+                      textColor: 0xFFFFFFFF,
                       callback: numClick,
                     ),
                     CalcButton(
                       text: '3',
+                      fillColor: 0xFF3D3D3D,
+                      textColor: 0xFFFFFFFF,
                       callback: numClick,
                     ),
                     CalcButton(
@@ -204,15 +222,21 @@ class CalculatorAppState extends State<CalculatorApp> {
                   children: <Widget>[
                     CalcButton(
                       text: '0',
+                      fillColor: 0xFF3D3D3D,
+                      textColor: 0xFFFFFFFF,
                       callback: numClick,
                     ),
                     CalcButton(
                       text: '00',
+                      fillColor: 0xFF3D3C3C,
+                      textColor: 0xFFFFFFFF,
                       callback: numClick,
                       textSize: 26,
                     ),
                     CalcButton(
                       text: '.',
+                      fillColor: 0xFF3D3C3C,
+                      textColor: 0xFFFFFFFF,
                       callback: numClick,
                     ),
                     CalcButton(
