@@ -104,7 +104,7 @@ class CalculatorAppState extends State<CalculatorApp> {
                       text: 'AC',
                       fillColor: 0xFFF61F67,
                       textColor: 0xFFfefae0,
-                      textSize: 24,
+                      textSize: 25,
                       callback: allClear,
                     ),
                     CalcButton(
